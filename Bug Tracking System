@@ -1,0 +1,35 @@
+# Bug Tracking System
+
+## Overview
+
+The Bug Tracking System is a comprehensive tool designed to manage and track bugs within a software development environment. It allows administrators, managers, and employees to report, track, and resolve bugs efficiently. The system includes functionality for handling bug reports, assigning bugs to employees, and categorizing bugs based on type.
+
+## Features
+
+- **Admin Operations**: Manage employees, view bug reports, and oversee system operations.
+- **Manager Operations**: Track and manage bug reports assigned to employees.
+- **Employee Operations**: Report new bugs and update the status of assigned bugs.
+
+## Project Structure
+
+- `setup_database.py`: Initializes the database schema and sets up tables required for the Bug Tracking System.
+- `admin_module.py`: Defines the `Admin` class for administrative functionalities.
+- `admin_operations.py`: Contains functions for handling administrative operations.
+- `manager_module.py`: Defines the `Manager` class for manager functionalities.
+- `manager_operations.py`: Contains functions for handling manager operations.
+- `employee_module.py`: Defines the `Employee` class for employee functionalities.
+- `employee_operations.py`: Contains functions for handling employee operations.
+- `main_application.py`: The main entry point of the application. Runs the application and handles user interactions.
+
+## Prerequisites
+
+- Python 3.x
+- MySQL or another compatible database
+
+## Setup Instructions
+
+1. **Clone the Repository**:
+
+   ```sh
+   git clone https://github.com/yourusername/your-repository.git
+   cd your-repository
